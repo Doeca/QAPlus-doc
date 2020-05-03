@@ -16,4 +16,4 @@
   
 
 ## 鸣谢
-本插件基于 C# Native.SDK 制作而成，网页控制面板采用vue.Js + React组件库构建
+本插件基于 C# Native.SDK 制作而成，网页控制面板采用vue.Js + Ant Design组件库构建
