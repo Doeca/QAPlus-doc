@@ -39,7 +39,8 @@ CQ码 | 说明
 [CQ:read,key=str] | 读取一个键值表
 [CQ:write,key=str,value=str] | 写一个键值表（酷Q重启后数据不会被清空），可在左侧列表中查阅具体使用方法
 [CQ:file] | 读取本地文件或网络地址（会根据文件后缀名或Content-Type自动判断数据格式）
-[CQ:noreply] | 拦截消息，不再让后续词条匹配
+[CQ:noreply] | 拦截消息，不再让后续插件处理消息
+[CQ:block] | 拦截处理，不再让后续词条匹配消息
 
 ?> 对于delete，ban，kick，like，其CQ码中可以支持gc、ac、id等特殊参数，可在左侧列表中查阅具体使用方法
 
